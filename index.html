@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <title>Estacionamento</title>
+        <link rel="stylesheet" type="text/css" href="_css/bootstrap.min.css"> <!-- Importa CSS Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="_css/style.css">
+    </head>
+    <body onload="mostraregistro()">
+        <div class="container">
+            <div class="header clearfix">
+                <h1>Controle de estacionamento</h1>
+                <div class="jumbotron">  <!-- Jumbotron é um quadrado cinza de fundo do Bootstrap -->
+                    <form id="formulario">
+                        <div class="form-group">
+                            <label>Modelo:</label>
+                            <input type="text" id="modelo" class="form-control">  <!-- form-control é um estilo do  Bootstrap -->
+                        </div>
+                        <div class="form-group">
+                            <label>Placa:</label>
+                            <input type="text" id="placa" class="form-control">  <!-- form-control é um estilo do  Bootstrap -->
+                        </div>
+                        <button type="submit" class="btn btn-dark">Adicionar</button> <!-- btn-primary,btn-danger,btn-dark -->
+                    </form>
+                </div>
+            </div>
+            <div class="row marketing">
+                <div class="col-lg-12"> <!-- coluna larga 12 -->
+                    <table class="table table-hover"> <!-- hover = ao passar o mouse -->
+                        <thead> <!-- titulo da tabela -->
+                            <tr>
+                                <th>Modelo:</th> <!-- Títulos -->
+                                <th>Placa:</th>
+                                <th>Entrada:</th>
+                                <th>Finalizar</th>
+                            </tr>
+                        </thead>
+                        <tbody id="resultados"> <!-- Corpo da tabela -->  
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <footer>
+         <small>Douglas Augusto</small>
+        </footer>
+        <script src="_scripts/jquery.js"></script>
+        <script src="_scripts/bootstrap.min.js"></script>
+        <script src="_scripts/main.js"></script>
+    </body>
+</html>
