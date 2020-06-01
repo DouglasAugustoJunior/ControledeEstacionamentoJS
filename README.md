@@ -7,7 +7,7 @@
  
 O **Controle de estacionamento** é um projeto simples que utilizei para praticar meus conhecimentos em JS.
 
-![Imagem](https://github.com/DouglasAugustoJunior/ControledeEstacionamentoJS/blob/master/_images/Tela.PNG?raw=true)
+![Imagem](https://github.com/DouglasAugustoJunior/ControledeEstacionamentoJS/blob/master/images/Tela.PNG?raw=true)
 
 
  
